@@ -1,0 +1,32 @@
+{
+    "name": "new API system built in config",
+    "description": "",
+    "dependencies": {
+        "game": "*",
+        "arcade-sprite-tilemaps": "github:riknoll/arcade-sprite-tilemaps#v0.0.2",
+        "arcade-tile-util": "github:riknoll/arcade-tile-util#v0.0.6",
+        "arcade-background-scroll": "github:riknoll/arcade-background-scroll#1aa07b60fe5882ae2bc07cf04f45794a46628eda",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.0",
+        "arcade-character-animations": "github:riknoll/arcade-character-animations#v0.0.3",
+        "sprite-util": "github:jwunderl/arcade-sprite-util#master",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
